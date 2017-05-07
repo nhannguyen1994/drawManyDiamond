@@ -7,7 +7,7 @@ function drawManyDiamond(N, H) {
     for (let i = 0; i < H; i++) {
         let str = '';
         if (i < h) {
-            for (let j = 0; j < N * H - N+1; j++) {
+            for (let j = 0; j < N * H - 2; j++) {
                 let j2 = j % width;
                 if ((j2 === h - 1 - i) || (j2 === h - 1 + i)) {
                     str += "*";
@@ -18,7 +18,7 @@ function drawManyDiamond(N, H) {
         }
 
         else {
-            for (let j = 0; j < N * H - N+1; j++) {
+            for (let j = 0; j < N * H - 2; j++) {
                 let j2 = j % width;
                 if ((j2 === i - h + 1) || (j2 === width- ((i - h )+ 1))) {
                     str += '*';
