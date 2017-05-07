@@ -20,8 +20,8 @@ TH1: Nếu N nhỏ hơn 1 hoặc H nhỏ hơn 1 hoặc H là số chẵn thì kh
 
 TH2: Ta cần vẽ nửa trên và nửa dưới của hình thoi.
 ```
-- #### Vẽ nửa trên của hình thoi (khi i<h) được thực hiện bởi đoạn code sau:
-```
+ #### Vẽ nửa trên của hình thoi (khi i<h) được thực hiện bởi đoạn code sau:
+
 if (i <h) {
             for (let j = 0; j < N * H -2; j++) {
                 let j2 = j % width;
@@ -32,9 +32,9 @@ if (i <h) {
                 }
             }
         }
-```
+
 - #### Vẽ nửa dưới của hình thoi (khi i>h) được thực hiện bởi đoạn code sau: 
-```
+
 else {
             for (let j = 0; j < N * H - 2; j++) {
                 let j2 = j % width;
@@ -46,6 +46,4 @@ else {
                 }
             }
         }
-```
-```
 ```
