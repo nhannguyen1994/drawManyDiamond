@@ -49,7 +49,7 @@ else {
 ```
 # Kết quả ứng với các trường hợp tham số đầu vào khác nhau:
 ```
- (N, H) = (2, 4)
+ (N,H) = (2,4)
  
 N nhỏ hơn 1 hoặc H nhỏ hơn 1 hoặc H là số chẵn, nhập lại N va H 
 *  * 
@@ -59,7 +59,7 @@ N nhỏ hơn 1 hoặc H nhỏ hơn 1 hoặc H là số chẵn, nhập lại N va
 
 ```
 ```
-(N, H) = (3, 7)
+(N,H) = (3,7)
 
   *     *     *   
   * *   * *   * *  
