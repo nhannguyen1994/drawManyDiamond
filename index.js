@@ -30,4 +30,4 @@ function drawManyDiamond(N, H) {
         }
     }
 }
-drawManyDiamond(2,5);
+drawManyDiamond(3,7);
