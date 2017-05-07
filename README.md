@@ -17,7 +17,7 @@ node index.js
 
 TH1: Nếu N nhỏ hơn 1 hoặc H nhỏ hơn 1 hoặc H là số chẵn thì không thoả mãn bài toán và cần nhập lại N và H.
 ```
-
+```
  ### TH2: Ta cần vẽ nửa trên và nửa dưới của hình thoi.
 
 - #### Vẽ nửa trên của hình thoi (khi i<h) được thực hiện bởi đoạn code sau:
