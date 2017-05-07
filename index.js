@@ -2,8 +2,8 @@ function drawManyDiamond(N, H) {
     if (N <= 1 || H <= 1 || H % 2 == 0) {
         console.log("N nhỏ hơn 1 hoặc H nhỏ hơn 1 hoặc H là số chẵn, nhập lại N va H ")
     }
-    let h = Math.floor((H / 2) + 1); // H=7, h=4
-    let width = H - 1; // width=6
+    let h = Math.floor((H / 2) + 1);
+    let width = H - 1; 
     for (let i = 0; i < H; i++) {
         let str = '';
         if (i < h) {
