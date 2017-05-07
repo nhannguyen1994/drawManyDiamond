@@ -1,13 +1,13 @@
 
 # Run
 
- ### Vẽ hình bằng console.log
+ #### Vẽ hình bằng console.log
 ```
 node index.js
 ```
-```
 
-## Yêu cầu bài toán:
+
+# Yêu cầu bài toán:
 ```
 - Chuyển đổi code C++ sang JavaScript cho bài toán vẽ N hình thoi với chiều cao H.
 
