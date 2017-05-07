@@ -38,7 +38,7 @@ if (i <h) {
 else {
             for (let j = 0; j < N * H - 2; j++) {
                 let j2 = j % width;
-                if ((j2 === i - h + 1) || (j2 === h - (i - h )+ 1)) {
+                if ((j2 === i - h + 1) || (j2 === h - ((i - h )+ 1))) {
                     str += '*';
                 }
                 else {
