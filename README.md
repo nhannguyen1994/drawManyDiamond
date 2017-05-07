@@ -11,7 +11,7 @@ node index.js
 ```
 - Chuyển đổi code C++ sang JavaScript cho bài toán vẽ N hình thoi với chiều cao H :
 ```
-void drawManyDiamond(int N, int H){
+void drawManyDiamond(int N, int H) {
   if (N < 1 || H < 1 || H % 2 == 0) {
        return;
     }
