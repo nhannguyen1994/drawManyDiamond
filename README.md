@@ -10,6 +10,7 @@ node index.js
 # Yêu cầu bài toán:
 ```
 - Chuyển đổi code C++ sang JavaScript cho bài toán vẽ N hình thoi với chiều cao H :
+
 ```
 void drawManyDiamond(int N, int H) {
   if (N < 1 || H < 1 || H % 2 == 0) {
@@ -44,9 +45,9 @@ void drawManyDiamond(int N, int H) {
 }
 ```
 
-```
+
 # Cách giải quyết bài toán:
-```
+
 TH1: Nếu N nhỏ hơn 1 hoặc H nhỏ hơn 1 hoặc H là số chẵn thì không thoả mãn bài toán và cần nhập lại N và H.
 ```
 
