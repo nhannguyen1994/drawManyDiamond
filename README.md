@@ -1,1 +1,3 @@
 # drawManyDiamond
+# Run
+node index
