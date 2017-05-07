@@ -1,7 +1,7 @@
 
 function drawManyDiamond(N, H) {
     if (N < 1 || H < 1 || H % 2 == 0) {
-        console.log("n nho hon 1 hoac H nho hon 1 hoac la so chan")
+        console.log("N nhỏ hơn 1 hoặc H nhỏ hơn 1 hoặc H là số chẵn, nhập lại N va H ")
     }
     const h = Math.floor((H / 2) + 1); // H=7, h=4
     const width = H - 1; // width=6
